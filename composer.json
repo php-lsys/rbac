@@ -1,0 +1,19 @@
+{
+	"name" : "lsys/rbac",
+	"type" : "library",
+	"license": "Apache-2.0",
+	"description" : "lsys module rbac",
+	"autoload" : {
+		"psr-4" : {
+			"LSYS\\" : "src/common/classes/",
+			"LSYS\\Rbac\\" : "src/menu/classes/Rbac/"
+		},
+		"files" : [
+			"src/common/Bootstarp.php"
+		]
+	},
+	"require-dev" : {
+		"lsys/db" : "~0.0.1",
+		"lsys/config" : "~0.0.1"
+	}
+}
